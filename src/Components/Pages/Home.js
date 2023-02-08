@@ -4,19 +4,9 @@ import HeroSection from '../HeroSection.js';
 
 function Home() {
   return (
-    <>
+    <div>
       <HeroSection />
-      <h1>Hello world!</h1>
-      <p>Hello World!</p>
-      <p>Hello World!</p>
-      <p>Hello World!</p>
-      <p>Hello World!</p>
-      <p>Hello World!</p>
-      <p>Hello World!</p>
-      <p>Hello World!</p>
-      <p>Hello World!</p>
-
-    </>
+    </div>
   );
 }
 

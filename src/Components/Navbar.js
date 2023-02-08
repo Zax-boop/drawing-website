@@ -28,7 +28,7 @@ function Navbar() {
     <>
         <nav className='navbar'>
             <div className='navbar-container'> 
-                <Link to='/' className="navbar-logo" onClick={closeMobileMenu}> {/* creates link to home page of website */}
+                <Link to='/Home' className="navbar-logo" onClick={closeMobileMenu}> {/* creates link to home page of website */}
                     Bohan's Art! 
                     <i class="fa fa-pencil"></i>                
                 </Link>
@@ -38,7 +38,7 @@ function Navbar() {
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
                         <Link 
-                        to='/Home' 
+                        to='/Home'
                         className='nav-links' 
                         onClick={closeMobileMenu}
                         >
@@ -54,7 +54,7 @@ function Navbar() {
                             Art
                         </Link>
                     </li>
-                    <li className='nav-item'>
+                    {/* <li className='nav-item'>
                         <Link 
                         to='/blog' 
                         className='nav-links' 
@@ -62,18 +62,18 @@ function Navbar() {
                         >
                             Blog
                         </Link>
-                    </li>
+                    </li> */}
                     <li className='nav-item'>
                         <Link 
-                        to='/contact-me' 
+                        to='/about-me' 
                         className='nav-links-mobile' 
                         onClick={closeMobileMenu}
                         >
-                            Contact Me!
+                            About Me!
                         </Link>
                     </li>
                 </ul>
-                {button && <Button buttonStyle='btn--outline'>CONTACT ME!</Button>}
+                {button && <Button buttonStyle='btn--outline' link='about-me'>About Me!</Button>}
             </div>
         </nav>
     </>
