@@ -28,7 +28,6 @@ function App() {
         </Routes>
       </Router> 
     </>
-    // HELLO WORLD!
   );
 }
 
