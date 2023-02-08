@@ -26,8 +26,9 @@ function App() {
           <Route path="/uncanny-valley" element={<Uncanny/>} />
           <Route path="/all" element={<All/>} />
         </Routes>
-      </Router>
+      </Router> 
     </>
+    // HELLO WORLD!
   );
 }
 
